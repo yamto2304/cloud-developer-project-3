@@ -10,4 +10,9 @@ export const sequelize = new Sequelize({
 
   'dialect': config.dialect,
   'storage': ':memory:',
+  'dialectOptions': {
+    ssl: {
+      require: true, // Make sure SSL is required
+      rejectUnauthorized: false // Accept self-signed certificates (adjust based on your SSL setup)
+    }}
 });
