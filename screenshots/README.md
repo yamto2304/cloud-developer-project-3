@@ -24,9 +24,11 @@ kubectl describe hpa
 ![alt text](LogHpa.png)
 * To verify that you have set up logging with a backend application
 ```bash
-kubectl logs {udagram-frontend}
+kubectl logs {}
 ```
-![alt text](LogHpa.png)
+![alt text](LogDescribeHpa.png)
+![alt text](LogApiUser.png)
+![alt text](LogApiFeed.png)
 
 Screenshot of Kubernetes services shows a reverse proxy
 ![alt text](KubectlGetServices.png)
