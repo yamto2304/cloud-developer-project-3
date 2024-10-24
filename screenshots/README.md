@@ -21,13 +21,14 @@ kubectl describe services
 ```bash
 kubectl describe hpa
 ```
-![alt text](LogHpa.png)
+![alt text](HPALog.png)
 * To verify that you have set up logging with a backend application
 ```bash
 kubectl logs {}
 ```
-![alt text](LogDescribeHpa.png)
-![alt text](LogApiUser.png)
+
+- Log user upload image
+![alt text](LogUserUploadImage.png)
 ![alt text](LogApiFeed.png)
 
 Screenshot of Kubernetes services shows a reverse proxy
