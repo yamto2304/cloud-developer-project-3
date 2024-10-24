@@ -26,9 +26,9 @@ kubectl describe hpa
 ```bash
 kubectl logs {}
 ```
+- Log user login 
+![alt text](LogUserLogin.png)
 
-- Log user upload image
-![alt text](LogUserUploadImage.png)
 ![alt text](LogApiFeed.png)
 
 Screenshot of Kubernetes services shows a reverse proxy
